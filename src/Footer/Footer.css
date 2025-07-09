@@ -1,0 +1,35 @@
+footer{
+    background-color: #102a41;
+}
+footer ul{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer ul a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+footer p{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+
+footer ul.social-media-links{
+    margin: 2rem 0;
+}
+footer ul.social-media-links a{
+    font-size: 2rem;
+}
+
+
+footer ul a:hover{
+    color: #49cdda;
+}

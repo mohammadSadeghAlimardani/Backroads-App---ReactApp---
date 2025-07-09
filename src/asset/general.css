@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('./Avenir\ Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Avenir-Medium';
+    src: url('./Avenir\ Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Avenir-Regular';
+    src: url('./Avenir\ Regular.ttf') format('truetype');
+}
+html{
+    font-family: 'Avenir-Regular';
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.17rem;
+}
+h4{
+    font-size: 1rem;
+}
+h5{
+    font-size: 0.83rem;
+}
+h6{
+    font-size: 0.67rem;
+}
+a{
+    text-decoration: none;
+}
+
+
+.section-center{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4.5rem;
+    padding-bottom: 6rem;
+}
+
+
+.btn{
+    transition: all 0.5s;
+    padding: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.btn.btn-white{
+    border: 1px solid white;
+    background-color: white;
+    color: #49cdda;
+}
+.btn.btn-white:hover{
+    color: white;
+    background-color: #49cdda;
+}
+.btn.btn-info{
+    border: 1px solid #49cdda;
+    background-color: #49cdda;
+    color: white;
+}
+.btn.btn-info:hover{
+    color: #49cdda;
+    background-color: white;
+}
+
+
+h3.title-section{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+h3.title-section span.left-word-title{
+    color: #142a42;
+    margin-right: 0.25rem;
+}
+h3.title-section span.right-word-title{
+    color: #49cdda;
+    margin-left: 0.25rem;
+}

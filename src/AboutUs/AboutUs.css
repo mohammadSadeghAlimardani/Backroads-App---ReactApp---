@@ -1,0 +1,35 @@
+.AboutUs div.AboutUs-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+}
+@media screen and (max-width:1200px){
+    .AboutUs div.AboutUs-container{
+        grid-template-columns: 1fr;
+    }
+}
+.AboutUs .left-container{
+    margin-right: 1rem;
+}
+.AboutUs .left-container div.image-container{
+    border: 10px solid #49cdda;
+    height: 100%;
+}
+.AboutUs .left-container div.image-container img{
+    width: calc(100% + 0.5rem);
+    height: calc(100% + 0.5rem);
+    object-fit: cover;
+    transform: translateX(1rem) translateY(1rem);
+}
+.AboutUs .right-container h2{
+    color: #142a42;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.AboutUs .right-container p{
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: #0d4a4d;
+}

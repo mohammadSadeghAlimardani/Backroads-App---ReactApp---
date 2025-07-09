@@ -1,0 +1,40 @@
+.Our-Services{
+    background-color: #f1f5f8;
+}
+.Our-Services .Our-Services-Items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+@media screen and (max-width:1200px){
+    .Our-Services .Our-Services-Items{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:768px){
+    .Our-Services .Our-Services-Items{
+        grid-template-columns: 1fr;
+    }
+}
+.Our-Services article{
+    display: flex;
+    gap: 0 0.75rem;
+    align-items: center;
+}
+.Our-Services article span{
+    color: #0d4a4d;
+    background-color: #49cdda;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+.Our-Services article h4{
+    letter-spacing: 2px;
+    color: #142a42;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+.Our-Services article p{
+    line-height: 1.4;
+    color: #0d4a4d;
+}

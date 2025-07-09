@@ -1,17 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import reactDom from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+/* import files */
+import TopNav from "./TopNav/TopNav";
+import Hero from "./Hero/Hero";
+import AboutUs from "./AboutUs/AboutUs";
+import OurServices from "./OurServices/OurServices";
+import FeaturedTours from "./FeaturedTours/FeaturedTours";
+import Footer from "./Footer/Footer";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const Index = () => {
+    return (
+        <main>
+            <TopNav/>
+            <Hero/>
+            <AboutUs/>
+            <OurServices/>
+            <FeaturedTours/>
+            <Footer/>
+        </main>
+    )
+}
+
+const root = reactDom.createRoot(document.getElementById('root'));
+root.render(<Index/>);
