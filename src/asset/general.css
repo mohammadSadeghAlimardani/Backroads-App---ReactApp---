@@ -82,6 +82,11 @@ h3.title-section{
     font-weight: bold;
     font-size: 2.5rem;
 }
+@media screen and (max-width:480px){
+    h3.title-section{
+        font-size: 1.5rem;
+    }
+}
 h3.title-section span.left-word-title{
     color: #142a42;
     margin-right: 0.25rem;
